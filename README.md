@@ -11,6 +11,8 @@ produce action sequences that take a start state to a goal state, in
 two planning domains. We compare:
 
   - Baseline vs world-model (WM) architectures
+  -   Baseline: trained over the space of possible action sequences only
+  -   WM (Wordl Model-based): trained over the space of action sequence + world dynamics (how actions change the world state)
   - In-distribution test problems vs truly-out-of-distribution (BFS-verified
     longer-than-training) problems
   - Plan optimality of demonstrations vs models
