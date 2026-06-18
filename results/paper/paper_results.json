@@ -1,0 +1,42 @@
+{
+  "blocks_world": {
+    "in_distribution": {
+      "n": 200,
+      "baseline": 0.95,
+      "wm_oracle": 0.94,
+      "wm_model": 0.94
+    },
+    "productivity": {
+      "n": 200,
+      "baseline": 0.6,
+      "wm_oracle": 0.585,
+      "wm_model": 0.585
+    },
+    "truly_ood": {
+      "n": 420,
+      "baseline": 0.0,
+      "wm_oracle": 0.6047619047619047,
+      "wm_model": 0.6047619047619047
+    }
+  },
+  "eight_puzzle": {
+    "in_distribution": {
+      "n": 200,
+      "baseline": 0.695,
+      "wm_oracle": 0.755,
+      "wm_model": 0.0
+    },
+    "productivity": {
+      "n": 200,
+      "baseline": 0.075,
+      "wm_oracle": 0.09,
+      "wm_model": 0.0
+    },
+    "truly_ood": {
+      "n": 421,
+      "baseline": 0.0,
+      "wm_oracle": 0.0,
+      "wm_model": 0.0
+    }
+  }
+}

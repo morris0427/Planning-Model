@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-06-08T19:58:10Z",
+  "domain": "blocks_world",
+  "use_world_model": false,
+  "split_type": "productivity",
+  "train": {
+    "difficulty_range": [
+      1,
+      4
+    ],
+    "num_samples": 20000,
+    "num_moves_min": 1,
+    "num_moves_max": 4
+  },
+  "test": {
+    "difficulty_range": [
+      5,
+      8
+    ],
+    "num_samples": 2000,
+    "num_moves_min": 5,
+    "num_moves_max": 8
+  }
+}

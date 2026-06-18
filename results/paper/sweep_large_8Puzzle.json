@@ -1,0 +1,102 @@
+[
+  {
+    "experiment_name": "eight_puzzle_in_distribution_large_base",
+    "domain": "eight_puzzle",
+    "model": "large_Base",
+    "split_type": "in_distribution",
+    "train_loss_initial": 0.852123491703325,
+    "train_loss_final": 0.22141905432673775,
+    "train_loss_best": 0.22140383226856306,
+    "test_loss": 0.3184850141406059,
+    "solve_rate": 0.85,
+    "problems_solved": 85,
+    "problems_tested": 100,
+    "training_time": 2124.349842071533,
+    "num_parameters": 4231184,
+    "converged": true,
+    "action_loss": 0.19273901382315303,
+    "state_loss": 0.358512946921554,
+    "num_action_tokens": 6239,
+    "num_state_tokens": 10261,
+    "config": {
+      "experiment_name": "eight_puzzle_in_distribution_large_base",
+      "seed": 42,
+      "model": {
+        "name": "large_Base",
+        "d_model": 256,
+        "n_heads": 8,
+        "d_ff": 1024,
+        "n_layers": 4,
+        "weight_sharing": false,
+        "use_world_model": false,
+        "learning_rate": 0.0001,
+        "batch_size": 32,
+        "max_epochs": 100
+      },
+      "data": {
+        "domain": "eight_puzzle",
+        "split_type": "in_distribution",
+        "num_train_samples": 5000,
+        "num_test_samples": 500,
+        "train_difficulty_range": [
+          10,
+          15
+        ],
+        "test_difficulty_range": [
+          10,
+          15
+        ]
+      }
+    }
+  },
+  {
+    "experiment_name": "eight_puzzle_in_distribution_large_wm",
+    "domain": "eight_puzzle",
+    "model": "large_WM",
+    "split_type": "in_distribution",
+    "train_loss_initial": 1.0997680307953221,
+    "train_loss_final": 0.0519786661455206,
+    "train_loss_best": 0.0519786661455206,
+    "test_loss": 0.06850652885623276,
+    "solve_rate": 0.04,
+    "problems_solved": 4,
+    "problems_tested": 100,
+    "training_time": 20824.31870007515,
+    "num_parameters": 4265744,
+    "converged": true,
+    "action_loss": 0.11510083489723913,
+    "state_loss": 0.04844715969762747,
+    "num_action_tokens": 6239,
+    "num_state_tokens": 77761,
+    "config": {
+      "experiment_name": "eight_puzzle_in_distribution_large_wm",
+      "seed": 42,
+      "model": {
+        "name": "large_WM",
+        "d_model": 256,
+        "n_heads": 8,
+        "d_ff": 1024,
+        "n_layers": 4,
+        "weight_sharing": false,
+        "use_world_model": true,
+        "learning_rate": 0.0001,
+        "batch_size": 32,
+        "max_epochs": 100
+      },
+      "data": {
+        "domain": "eight_puzzle",
+        "split_type": "in_distribution",
+        "num_train_samples": 5000,
+        "num_test_samples": 500,
+        "train_difficulty_range": [
+          10,
+          15
+        ],
+        "test_difficulty_range": [
+          10,
+          15
+        ]
+      }
+    }
+  }
+]

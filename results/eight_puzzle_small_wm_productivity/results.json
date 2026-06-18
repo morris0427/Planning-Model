@@ -1,0 +1,46 @@
+{
+  "experiment_name": "eight_puzzle_small_wm_productivity",
+  "domain": "eight_puzzle",
+  "model": "small_WM",
+  "split_type": "productivity",
+  "train_loss_initial": 2.213351166931687,
+  "train_loss_final": 0.07719295789861376,
+  "train_loss_best": 0.07719295789861376,
+  "test_loss": 1.4788426905870438,
+  "solve_rate": 0.02,
+  "problems_solved": 2,
+  "problems_tested": 100,
+  "training_time": 1599.5280199050903,
+  "num_parameters": 144592,
+  "converged": true,
+  "config": {
+    "experiment_name": "eight_puzzle_small_wm_productivity",
+    "seed": 42,
+    "model": {
+      "name": "small_WM",
+      "d_model": 64,
+      "n_heads": 4,
+      "d_ff": 256,
+      "n_layers": 2,
+      "weight_sharing": false,
+      "use_world_model": true,
+      "learning_rate": 0.0001,
+      "batch_size": 32,
+      "max_epochs": 100
+    },
+    "data": {
+      "domain": "eight_puzzle",
+      "split_type": "productivity",
+      "num_train_samples": 5000,
+      "num_test_samples": 500,
+      "train_difficulty_range": [
+        10,
+        12
+      ],
+      "test_difficulty_range": [
+        13,
+        18
+      ]
+    }
+  }
+}

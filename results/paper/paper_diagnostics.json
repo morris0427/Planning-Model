@@ -1,0 +1,4113 @@
+{
+  "state_validity_by_step": {
+    "blocks_world": [
+      {
+        "step": 1,
+        "valid": 200,
+        "total": 200
+      },
+      {
+        "step": 2,
+        "valid": 193,
+        "total": 194
+      },
+      {
+        "step": 3,
+        "valid": 173,
+        "total": 173
+      },
+      {
+        "step": 4,
+        "valid": 109,
+        "total": 109
+      }
+    ],
+    "eight_puzzle": [
+      {
+        "step": 1,
+        "valid": 0,
+        "total": 199
+      },
+      {
+        "step": 2,
+        "valid": 0,
+        "total": 199
+      },
+      {
+        "step": 3,
+        "valid": 0,
+        "total": 199
+      },
+      {
+        "step": 4,
+        "valid": 0,
+        "total": 199
+      },
+      {
+        "step": 5,
+        "valid": 0,
+        "total": 199
+      },
+      {
+        "step": 6,
+        "valid": 0,
+        "total": 199
+      },
+      {
+        "step": 7,
+        "valid": 0,
+        "total": 198
+      },
+      {
+        "step": 8,
+        "valid": 0,
+        "total": 198
+      },
+      {
+        "step": 9,
+        "valid": 0,
+        "total": 197
+      },
+      {
+        "step": 10,
+        "valid": 0,
+        "total": 197
+      },
+      {
+        "step": 11,
+        "valid": 0,
+        "total": 197
+      },
+      {
+        "step": 12,
+        "valid": 0,
+        "total": 196
+      },
+      {
+        "step": 13,
+        "valid": 0,
+        "total": 183
+      },
+      {
+        "step": 14,
+        "valid": 0,
+        "total": 183
+      },
+      {
+        "step": 15,
+        "valid": 0,
+        "total": 182
+      }
+    ]
+  },
+  "plan_length": {
+    "blocks_world_baseline": [
+      {
+        "ref_num_moves": 5,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 3,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 2,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 3,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 3,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 3,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 3,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 2,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 3,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 3,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 3,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 3,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 2,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 2,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 3,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 3,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 3,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 3,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 2,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 3,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 3,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 3,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 2,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 3,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 2,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 3,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 3,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 2,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 3,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 4,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 4,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 4,
+        "solved": false
+      }
+    ],
+    "blocks_world_wm_oracle": [
+      {
+        "ref_num_moves": 5,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 2,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 2,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 6,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 2,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 8,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 2,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 2,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 2,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 7,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 2,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 2,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 6,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 2,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 6,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 7,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 3,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 2,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 3,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 2,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 2,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 2,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 7,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 2,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 7,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 2,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 6,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 2,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 3,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 2,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 8,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 6,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 6,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 2,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 6,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 2,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 2,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 5,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 3,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 2,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 3,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 8,
+        "n_actions": 2,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 6,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 7,
+        "n_actions": 1,
+        "solved": false
+      }
+    ],
+    "eight_puzzle_baseline": [
+      {
+        "ref_num_moves": 13,
+        "n_actions": 9,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 10,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 12,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 12,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 12,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 10,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 9,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 12,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 10,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 10,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 12,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 9,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 12,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 10,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 12,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 10,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 12,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 11,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 11,
+        "solved": false
+      }
+    ],
+    "eight_puzzle_wm_oracle": [
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 18,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 13,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 1,
+        "solved": true
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 14,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 16,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 15,
+        "n_actions": 1,
+        "solved": false
+      },
+      {
+        "ref_num_moves": 17,
+        "n_actions": 1,
+        "solved": false
+      }
+    ]
+  }
+}

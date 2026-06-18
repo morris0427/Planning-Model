@@ -1,0 +1,14 @@
+% Conclusion 1: Performance is domain-dependent
+\begin{table}[t]
+\centering
+\caption{Domain characteristics. The two test domains differ in state-space size, in the quality of SAW-generated demonstrations (measured as mean excess moves over the BFS optimum), and in the in-distribution plan-quality the models achieve.}
+\label{tab:domain}
+\begin{tabular}{lcccc}
+\toprule
+Domain & State space & SAW mean excess & Baseline mean excess & WM mean excess \\
+\midrule
+Blocks World & ≈75 & 2.72 & 0.13 & 0.14 \\
+8-Puzzle & 181{,}440 & 0.62 & 0.41 & 0.39 \\
+\bottomrule
+\end{tabular}
+\end{table}

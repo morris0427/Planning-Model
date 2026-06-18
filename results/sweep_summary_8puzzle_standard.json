@@ -1,0 +1,554 @@
+[
+  {
+    "experiment_name": "eight_puzzle_tiny_base_std",
+    "domain": "eight_puzzle",
+    "model": "tiny_Base",
+    "split_type": "in_distribution",
+    "train_loss_initial": 2.2794658841600843,
+    "train_loss_final": 0.4931159214988636,
+    "train_loss_best": 0.49250626753849586,
+    "test_loss": 0.4423991721123457,
+    "solve_rate": 0.08,
+    "problems_solved": 8,
+    "problems_tested": 100,
+    "training_time": 299.6940197944641,
+    "num_parameters": 36176,
+    "converged": true,
+    "config": {
+      "experiment_name": "eight_puzzle_tiny_base_std",
+      "seed": 42,
+      "model": {
+        "name": "tiny_Base",
+        "d_model": 32,
+        "n_heads": 2,
+        "d_ff": 128,
+        "n_layers": 2,
+        "weight_sharing": false,
+        "use_world_model": false,
+        "learning_rate": 0.0001,
+        "batch_size": 32,
+        "max_epochs": 100
+      },
+      "data": {
+        "domain": "eight_puzzle",
+        "split_type": "in_distribution",
+        "num_train_samples": 5000,
+        "num_test_samples": 500,
+        "train_difficulty_range": [
+          10,
+          15
+        ],
+        "test_difficulty_range": [
+          10,
+          15
+        ]
+      }
+    }
+  },
+  {
+    "experiment_name": "eight_puzzle_tiny_base_shared",
+    "domain": "eight_puzzle",
+    "model": "tiny_BaseShared",
+    "split_type": "in_distribution",
+    "train_loss_initial": 2.350672109111859,
+    "train_loss_final": 0.4897222435398466,
+    "train_loss_best": 0.4897222435398466,
+    "test_loss": 0.43547115474939346,
+    "solve_rate": 0.1,
+    "problems_solved": 10,
+    "problems_tested": 100,
+    "training_time": 313.18629002571106,
+    "num_parameters": 36176,
+    "converged": true,
+    "config": {
+      "experiment_name": "eight_puzzle_tiny_base_shared",
+      "seed": 42,
+      "model": {
+        "name": "tiny_BaseShared",
+        "d_model": 32,
+        "n_heads": 2,
+        "d_ff": 128,
+        "n_layers": 2,
+        "weight_sharing": true,
+        "use_world_model": false,
+        "learning_rate": 0.0001,
+        "batch_size": 32,
+        "max_epochs": 100
+      },
+      "data": {
+        "domain": "eight_puzzle",
+        "split_type": "in_distribution",
+        "num_train_samples": 5000,
+        "num_test_samples": 500,
+        "train_difficulty_range": [
+          10,
+          15
+        ],
+        "test_difficulty_range": [
+          10,
+          15
+        ]
+      }
+    }
+  },
+  {
+    "experiment_name": "eight_puzzle_tiny_wm_std",
+    "domain": "eight_puzzle",
+    "model": "tiny_WM",
+    "split_type": "in_distribution",
+    "train_loss_initial": 2.510754442518684,
+    "train_loss_final": 0.2346661858687735,
+    "train_loss_best": 0.2346661858687735,
+    "test_loss": 0.16967011522501707,
+    "solve_rate": 0.0,
+    "problems_solved": 0,
+    "problems_tested": 100,
+    "training_time": 1175.5737838745117,
+    "num_parameters": 40496,
+    "converged": true,
+    "config": {
+      "experiment_name": "eight_puzzle_tiny_wm_std",
+      "seed": 42,
+      "model": {
+        "name": "tiny_WM",
+        "d_model": 32,
+        "n_heads": 2,
+        "d_ff": 128,
+        "n_layers": 2,
+        "weight_sharing": false,
+        "use_world_model": true,
+        "learning_rate": 0.0001,
+        "batch_size": 32,
+        "max_epochs": 100
+      },
+      "data": {
+        "domain": "eight_puzzle",
+        "split_type": "in_distribution",
+        "num_train_samples": 5000,
+        "num_test_samples": 500,
+        "train_difficulty_range": [
+          10,
+          15
+        ],
+        "test_difficulty_range": [
+          10,
+          15
+        ]
+      }
+    }
+  },
+  {
+    "experiment_name": "eight_puzzle_tiny_wm_shared",
+    "domain": "eight_puzzle",
+    "model": "tiny_WMShared",
+    "split_type": "in_distribution",
+    "train_loss_initial": 2.5623386164379727,
+    "train_loss_final": 0.24001408686303788,
+    "train_loss_best": 0.24001408686303788,
+    "test_loss": 0.17702066898345947,
+    "solve_rate": 0.01,
+    "problems_solved": 1,
+    "problems_tested": 100,
+    "training_time": 1171.5531458854675,
+    "num_parameters": 40496,
+    "converged": true,
+    "config": {
+      "experiment_name": "eight_puzzle_tiny_wm_shared",
+      "seed": 42,
+      "model": {
+        "name": "tiny_WMShared",
+        "d_model": 32,
+        "n_heads": 2,
+        "d_ff": 128,
+        "n_layers": 2,
+        "weight_sharing": true,
+        "use_world_model": true,
+        "learning_rate": 0.0001,
+        "batch_size": 32,
+        "max_epochs": 100
+      },
+      "data": {
+        "domain": "eight_puzzle",
+        "split_type": "in_distribution",
+        "num_train_samples": 5000,
+        "num_test_samples": 500,
+        "train_difficulty_range": [
+          10,
+          15
+        ],
+        "test_difficulty_range": [
+          10,
+          15
+        ]
+      }
+    }
+  },
+  {
+    "experiment_name": "eight_puzzle_small_base_std",
+    "domain": "eight_puzzle",
+    "model": "small_Base",
+    "split_type": "in_distribution",
+    "train_loss_initial": 1.809171354694731,
+    "train_loss_final": 0.3779831019936094,
+    "train_loss_best": 0.37777873759816405,
+    "test_loss": 0.35508408583700657,
+    "solve_rate": 0.42,
+    "problems_solved": 42,
+    "problems_tested": 100,
+    "training_time": 425.23446917533875,
+    "num_parameters": 137872,
+    "converged": true,
+    "config": {
+      "experiment_name": "eight_puzzle_small_base_std",
+      "seed": 42,
+      "model": {
+        "name": "small_Base",
+        "d_model": 64,
+        "n_heads": 4,
+        "d_ff": 256,
+        "n_layers": 2,
+        "weight_sharing": false,
+        "use_world_model": false,
+        "learning_rate": 0.0001,
+        "batch_size": 32,
+        "max_epochs": 100
+      },
+      "data": {
+        "domain": "eight_puzzle",
+        "split_type": "in_distribution",
+        "num_train_samples": 5000,
+        "num_test_samples": 500,
+        "train_difficulty_range": [
+          10,
+          15
+        ],
+        "test_difficulty_range": [
+          10,
+          15
+        ]
+      }
+    }
+  },
+  {
+    "experiment_name": "eight_puzzle_small_base_shared",
+    "domain": "eight_puzzle",
+    "model": "small_BaseShared",
+    "split_type": "in_distribution",
+    "train_loss_initial": 1.824096473918599,
+    "train_loss_final": 0.36842903418905415,
+    "train_loss_best": 0.36842903418905415,
+    "test_loss": 0.3418374340981245,
+    "solve_rate": 0.45,
+    "problems_solved": 45,
+    "problems_tested": 100,
+    "training_time": 420.74896001815796,
+    "num_parameters": 137872,
+    "converged": true,
+    "config": {
+      "experiment_name": "eight_puzzle_small_base_shared",
+      "seed": 42,
+      "model": {
+        "name": "small_BaseShared",
+        "d_model": 64,
+        "n_heads": 4,
+        "d_ff": 256,
+        "n_layers": 2,
+        "weight_sharing": true,
+        "use_world_model": false,
+        "learning_rate": 0.0001,
+        "batch_size": 32,
+        "max_epochs": 100
+      },
+      "data": {
+        "domain": "eight_puzzle",
+        "split_type": "in_distribution",
+        "num_train_samples": 5000,
+        "num_test_samples": 500,
+        "train_difficulty_range": [
+          10,
+          15
+        ],
+        "test_difficulty_range": [
+          10,
+          15
+        ]
+      }
+    }
+  },
+  {
+    "experiment_name": "eight_puzzle_small_wm_std",
+    "domain": "eight_puzzle",
+    "model": "small_WM",
+    "split_type": "in_distribution",
+    "train_loss_initial": 2.2064841104920503,
+    "train_loss_final": 0.09980436072797533,
+    "train_loss_best": 0.09980436072797533,
+    "test_loss": 0.08056492358446121,
+    "solve_rate": 0.1,
+    "problems_solved": 10,
+    "problems_tested": 100,
+    "training_time": 2176.554863214493,
+    "num_parameters": 146512,
+    "converged": true,
+    "config": {
+      "experiment_name": "eight_puzzle_small_wm_std",
+      "seed": 42,
+      "model": {
+        "name": "small_WM",
+        "d_model": 64,
+        "n_heads": 4,
+        "d_ff": 256,
+        "n_layers": 2,
+        "weight_sharing": false,
+        "use_world_model": true,
+        "learning_rate": 0.0001,
+        "batch_size": 32,
+        "max_epochs": 100
+      },
+      "data": {
+        "domain": "eight_puzzle",
+        "split_type": "in_distribution",
+        "num_train_samples": 5000,
+        "num_test_samples": 500,
+        "train_difficulty_range": [
+          10,
+          15
+        ],
+        "test_difficulty_range": [
+          10,
+          15
+        ]
+      }
+    }
+  },
+  {
+    "experiment_name": "eight_puzzle_small_wm_shared",
+    "domain": "eight_puzzle",
+    "model": "small_WMShared",
+    "split_type": "in_distribution",
+    "train_loss_initial": 2.212198851974147,
+    "train_loss_final": 0.09954002342975823,
+    "train_loss_best": 0.09954002342975823,
+    "test_loss": 0.08036857238039374,
+    "solve_rate": 0.03,
+    "problems_solved": 3,
+    "problems_tested": 100,
+    "training_time": 3788.6120760440826,
+    "num_parameters": 146512,
+    "converged": true,
+    "config": {
+      "experiment_name": "eight_puzzle_small_wm_shared",
+      "seed": 42,
+      "model": {
+        "name": "small_WMShared",
+        "d_model": 64,
+        "n_heads": 4,
+        "d_ff": 256,
+        "n_layers": 2,
+        "weight_sharing": true,
+        "use_world_model": true,
+        "learning_rate": 0.0001,
+        "batch_size": 32,
+        "max_epochs": 100
+      },
+      "data": {
+        "domain": "eight_puzzle",
+        "split_type": "in_distribution",
+        "num_train_samples": 5000,
+        "num_test_samples": 500,
+        "train_difficulty_range": [
+          10,
+          15
+        ],
+        "test_difficulty_range": [
+          10,
+          15
+        ]
+      }
+    }
+  },
+  {
+    "experiment_name": "eight_puzzle_medium_base_std",
+    "domain": "eight_puzzle",
+    "model": "medium_Base",
+    "split_type": "in_distribution",
+    "train_loss_initial": 1.1599085262626598,
+    "train_loss_final": 0.24750515154212904,
+    "train_loss_best": 0.24750515154212904,
+    "test_loss": 0.3002650449052453,
+    "solve_rate": 0.81,
+    "problems_solved": 81,
+    "problems_tested": 100,
+    "training_time": 1412.3723032474518,
+    "num_parameters": 1067024,
+    "converged": true,
+    "config": {
+      "experiment_name": "eight_puzzle_medium_base_std",
+      "seed": 42,
+      "model": {
+        "name": "medium_Base",
+        "d_model": 128,
+        "n_heads": 8,
+        "d_ff": 512,
+        "n_layers": 4,
+        "weight_sharing": false,
+        "use_world_model": false,
+        "learning_rate": 0.0001,
+        "batch_size": 32,
+        "max_epochs": 100
+      },
+      "data": {
+        "domain": "eight_puzzle",
+        "split_type": "in_distribution",
+        "num_train_samples": 5000,
+        "num_test_samples": 500,
+        "train_difficulty_range": [
+          10,
+          15
+        ],
+        "test_difficulty_range": [
+          10,
+          15
+        ]
+      }
+    }
+  },
+  {
+    "experiment_name": "eight_puzzle_medium_base_shared",
+    "domain": "eight_puzzle",
+    "model": "medium_BaseShared",
+    "split_type": "in_distribution",
+    "train_loss_initial": 1.1548478899488024,
+    "train_loss_final": 0.24777284947929867,
+    "train_loss_best": 0.24777284947929867,
+    "test_loss": 0.305475109256804,
+    "solve_rate": 0.81,
+    "problems_solved": 81,
+    "problems_tested": 100,
+    "training_time": 2854.2913217544556,
+    "num_parameters": 1067024,
+    "converged": true,
+    "config": {
+      "experiment_name": "eight_puzzle_medium_base_shared",
+      "seed": 42,
+      "model": {
+        "name": "medium_BaseShared",
+        "d_model": 128,
+        "n_heads": 8,
+        "d_ff": 512,
+        "n_layers": 4,
+        "weight_sharing": true,
+        "use_world_model": false,
+        "learning_rate": 0.0001,
+        "batch_size": 32,
+        "max_epochs": 100
+      },
+      "data": {
+        "domain": "eight_puzzle",
+        "split_type": "in_distribution",
+        "num_train_samples": 5000,
+        "num_test_samples": 500,
+        "train_difficulty_range": [
+          10,
+          15
+        ],
+        "test_difficulty_range": [
+          10,
+          15
+        ]
+      }
+    }
+  },
+  {
+    "experiment_name": "eight_puzzle_medium_wm_std",
+    "domain": "eight_puzzle",
+    "model": "medium_WM",
+    "split_type": "in_distribution",
+    "train_loss_initial": 1.5987112886586767,
+    "train_loss_final": 0.0595032866023908,
+    "train_loss_best": 0.059438083842871296,
+    "test_loss": 0.06584621407091618,
+    "solve_rate": 0.05,
+    "problems_solved": 5,
+    "problems_tested": 100,
+    "training_time": 11266.848421812057,
+    "num_parameters": 1084304,
+    "converged": true,
+    "config": {
+      "experiment_name": "eight_puzzle_medium_wm_std",
+      "seed": 42,
+      "model": {
+        "name": "medium_WM",
+        "d_model": 128,
+        "n_heads": 8,
+        "d_ff": 512,
+        "n_layers": 4,
+        "weight_sharing": false,
+        "use_world_model": true,
+        "learning_rate": 0.0001,
+        "batch_size": 32,
+        "max_epochs": 100
+      },
+      "data": {
+        "domain": "eight_puzzle",
+        "split_type": "in_distribution",
+        "num_train_samples": 5000,
+        "num_test_samples": 500,
+        "train_difficulty_range": [
+          10,
+          15
+        ],
+        "test_difficulty_range": [
+          10,
+          15
+        ]
+      }
+    }
+  },
+  {
+    "experiment_name": "eight_puzzle_medium_wm_shared",
+    "domain": "eight_puzzle",
+    "model": "medium_WMShared",
+    "split_type": "in_distribution",
+    "train_loss_initial": 1.6406504751011064,
+    "train_loss_final": 0.058838204901879,
+    "train_loss_best": 0.058838204901879,
+    "test_loss": 0.06583805847913027,
+    "solve_rate": 0.04,
+    "problems_solved": 4,
+    "problems_tested": 100,
+    "training_time": 31698.277049779892,
+    "num_parameters": 1084304,
+    "converged": true,
+    "config": {
+      "experiment_name": "eight_puzzle_medium_wm_shared",
+      "seed": 42,
+      "model": {
+        "name": "medium_WMShared",
+        "d_model": 128,
+        "n_heads": 8,
+        "d_ff": 512,
+        "n_layers": 4,
+        "weight_sharing": true,
+        "use_world_model": true,
+        "learning_rate": 0.0001,
+        "batch_size": 32,
+        "max_epochs": 100
+      },
+      "data": {
+        "domain": "eight_puzzle",
+        "split_type": "in_distribution",
+        "num_train_samples": 5000,
+        "num_test_samples": 500,
+        "train_difficulty_range": [
+          10,
+          15
+        ],
+        "test_difficulty_range": [
+          10,
+          15
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,14 @@
+% Conclusion 2: WM auxiliary supervision helps sometimes
+\begin{table}[t]
+\centering
+\caption{In-distribution solve rates. \textit{WM (model)} bypasses the oracle and lets the model generate state predictions autoregressively. In Blocks World, the model's state predictions are accurate enough that the model and oracle paths produce identical results. In 8-Puzzle, the model's state predictions collapse, indicating the auxiliary task is not effectively learned at this state-space size.}
+\label{tab:wm-aux}
+\begin{tabular}{lcccc}
+\toprule
+Domain & Baseline & WM (oracle) & WM (model) & $n$ \\
+\midrule
+Blocks World & 76.6\% & 79.2\% & 79.2\% & 500 \\
+8-Puzzle & 75.6\% & 79.4\% & 0.0\% & 500 \\
+\bottomrule
+\end{tabular}
+\end{table}

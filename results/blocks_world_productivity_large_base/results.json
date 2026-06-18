@@ -1,0 +1,51 @@
+{
+  "experiment_name": "blocks_world_productivity_large_base",
+  "domain": "blocks_world",
+  "model": "large_Base",
+  "split_type": "productivity",
+  "train_loss_initial": 0.9440976791381835,
+  "train_loss_final": 0.5129637022018433,
+  "train_loss_best": 0.5129637022018433,
+  "test_loss": 2.9341711506010992,
+  "solve_rate": 0.55,
+  "problems_solved": 55,
+  "problems_tested": 100,
+  "training_time": 12492.685923099518,
+  "num_parameters": 4228107,
+  "converged": true,
+  "action_loss": 0.0,
+  "state_loss": 3.0590063284876146,
+  "num_action_tokens": 6106,
+  "num_state_tokens": 52643,
+  "state_action_ratio": 8.621519816573862,
+  "config": {
+    "experiment_name": "blocks_world_productivity_large_base",
+    "seed": 42,
+    "model": {
+      "name": "large_Base",
+      "d_model": 256,
+      "n_heads": 8,
+      "d_ff": 1024,
+      "n_layers": 4,
+      "weight_sharing": false,
+      "use_world_model": false,
+      "learning_rate": 0.0001,
+      "batch_size": 32,
+      "max_epochs": 100
+    },
+    "data": {
+      "domain": "blocks_world",
+      "split_type": "productivity",
+      "num_train_samples": 20000,
+      "num_test_samples": 2000,
+      "train_difficulty_range": [
+        1,
+        4
+      ],
+      "test_difficulty_range": [
+        5,
+        8
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.23.1",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "2db30d2019a4061a6ebc807c027ba66a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"blocks-world-transformer-experiments\">Blocks World Transformer Experiments</h1>\n<span class=\"paragraph\">Exploring how <strong>world models</strong> (predicting intermediate states) compare to <strong>baseline</strong> transformers\non compositional generalization tasks. We sweep across model sizes (tiny/small/medium) and\ntraining splits (in-distribution vs. productivity generalization).</span></span>"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}

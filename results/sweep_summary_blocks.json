@@ -1,0 +1,554 @@
+[
+  {
+    "experiment_name": "blocks_world_tiny_base_std",
+    "domain": "blocks_world",
+    "model": "tiny_Base",
+    "split_type": "in_distribution",
+    "train_loss_initial": 1.663926678466797,
+    "train_loss_final": 1.0579557285308838,
+    "train_loss_best": 1.0579557285308838,
+    "test_loss": 1.0383327943938119,
+    "solve_rate": 0.1,
+    "problems_solved": 10,
+    "problems_tested": 100,
+    "training_time": 715.3149318695068,
+    "num_parameters": 35403,
+    "converged": true,
+    "config": {
+      "experiment_name": "blocks_world_tiny_base_std",
+      "seed": 42,
+      "model": {
+        "name": "tiny_Base",
+        "d_model": 32,
+        "n_heads": 2,
+        "d_ff": 128,
+        "n_layers": 2,
+        "weight_sharing": false,
+        "use_world_model": false,
+        "learning_rate": 0.0001,
+        "batch_size": 32,
+        "max_epochs": 100
+      },
+      "data": {
+        "domain": "blocks_world",
+        "split_type": "in_distribution",
+        "num_train_samples": 20000,
+        "num_test_samples": 2000,
+        "train_difficulty_range": [
+          1,
+          6
+        ],
+        "test_difficulty_range": [
+          1,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "experiment_name": "blocks_world_tiny_base_shared",
+    "domain": "blocks_world",
+    "model": "tiny_BaseShared",
+    "split_type": "in_distribution",
+    "train_loss_initial": 1.6078030601501465,
+    "train_loss_final": 1.0553515683174133,
+    "train_loss_best": 1.0553515683174133,
+    "test_loss": 1.0384259905133928,
+    "solve_rate": 0.08,
+    "problems_solved": 8,
+    "problems_tested": 100,
+    "training_time": 740.2144358158112,
+    "num_parameters": 35403,
+    "converged": true,
+    "config": {
+      "experiment_name": "blocks_world_tiny_base_shared",
+      "seed": 42,
+      "model": {
+        "name": "tiny_BaseShared",
+        "d_model": 32,
+        "n_heads": 2,
+        "d_ff": 128,
+        "n_layers": 2,
+        "weight_sharing": true,
+        "use_world_model": false,
+        "learning_rate": 0.0001,
+        "batch_size": 32,
+        "max_epochs": 100
+      },
+      "data": {
+        "domain": "blocks_world",
+        "split_type": "in_distribution",
+        "num_train_samples": 20000,
+        "num_test_samples": 2000,
+        "train_difficulty_range": [
+          1,
+          6
+        ],
+        "test_difficulty_range": [
+          1,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "experiment_name": "blocks_world_tiny_wm_std",
+    "domain": "blocks_world",
+    "model": "tiny_WM",
+    "split_type": "in_distribution",
+    "train_loss_initial": 1.6787261177062989,
+    "train_loss_final": 0.7181723516464233,
+    "train_loss_best": 0.7181723516464233,
+    "test_loss": 0.6740827276593163,
+    "solve_rate": 0.5,
+    "problems_solved": 50,
+    "problems_tested": 100,
+    "training_time": 4708.905518770218,
+    "num_parameters": 36171,
+    "converged": true,
+    "config": {
+      "experiment_name": "blocks_world_tiny_wm_std",
+      "seed": 42,
+      "model": {
+        "name": "tiny_WM",
+        "d_model": 32,
+        "n_heads": 2,
+        "d_ff": 128,
+        "n_layers": 2,
+        "weight_sharing": false,
+        "use_world_model": true,
+        "learning_rate": 0.0001,
+        "batch_size": 32,
+        "max_epochs": 100
+      },
+      "data": {
+        "domain": "blocks_world",
+        "split_type": "in_distribution",
+        "num_train_samples": 20000,
+        "num_test_samples": 2000,
+        "train_difficulty_range": [
+          1,
+          6
+        ],
+        "test_difficulty_range": [
+          1,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "experiment_name": "blocks_world_tiny_wm_shared",
+    "domain": "blocks_world",
+    "model": "tiny_WMShared",
+    "split_type": "in_distribution",
+    "train_loss_initial": 1.6942627386093139,
+    "train_loss_final": 0.7147537643432618,
+    "train_loss_best": 0.7147537643432618,
+    "test_loss": 0.6732156910593547,
+    "solve_rate": 0.55,
+    "problems_solved": 55,
+    "problems_tested": 100,
+    "training_time": 2493.4486651420593,
+    "num_parameters": 36171,
+    "converged": true,
+    "config": {
+      "experiment_name": "blocks_world_tiny_wm_shared",
+      "seed": 42,
+      "model": {
+        "name": "tiny_WMShared",
+        "d_model": 32,
+        "n_heads": 2,
+        "d_ff": 128,
+        "n_layers": 2,
+        "weight_sharing": true,
+        "use_world_model": true,
+        "learning_rate": 0.0001,
+        "batch_size": 32,
+        "max_epochs": 100
+      },
+      "data": {
+        "domain": "blocks_world",
+        "split_type": "in_distribution",
+        "num_train_samples": 20000,
+        "num_test_samples": 2000,
+        "train_difficulty_range": [
+          1,
+          6
+        ],
+        "test_difficulty_range": [
+          1,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "experiment_name": "blocks_world_small_base_std",
+    "domain": "blocks_world",
+    "model": "small_Base",
+    "split_type": "in_distribution",
+    "train_loss_initial": 1.4186654832839967,
+    "train_loss_final": 0.9930892217636108,
+    "train_loss_best": 0.9930892217636108,
+    "test_loss": 0.9850732428686959,
+    "solve_rate": 0.11,
+    "problems_solved": 11,
+    "problems_tested": 100,
+    "training_time": 7309.096273183823,
+    "num_parameters": 136331,
+    "converged": true,
+    "config": {
+      "experiment_name": "blocks_world_small_base_std",
+      "seed": 42,
+      "model": {
+        "name": "small_Base",
+        "d_model": 64,
+        "n_heads": 4,
+        "d_ff": 256,
+        "n_layers": 2,
+        "weight_sharing": false,
+        "use_world_model": false,
+        "learning_rate": 0.0001,
+        "batch_size": 32,
+        "max_epochs": 100
+      },
+      "data": {
+        "domain": "blocks_world",
+        "split_type": "in_distribution",
+        "num_train_samples": 20000,
+        "num_test_samples": 2000,
+        "train_difficulty_range": [
+          1,
+          6
+        ],
+        "test_difficulty_range": [
+          1,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "experiment_name": "blocks_world_small_base_shared",
+    "domain": "blocks_world",
+    "model": "small_BaseShared",
+    "split_type": "in_distribution",
+    "train_loss_initial": 1.419933136177063,
+    "train_loss_final": 0.9962539812088013,
+    "train_loss_best": 0.9962539812088013,
+    "test_loss": 0.991364009796627,
+    "solve_rate": 0.13,
+    "problems_solved": 13,
+    "problems_tested": 100,
+    "training_time": 4706.320411205292,
+    "num_parameters": 136331,
+    "converged": true,
+    "config": {
+      "experiment_name": "blocks_world_small_base_shared",
+      "seed": 42,
+      "model": {
+        "name": "small_BaseShared",
+        "d_model": 64,
+        "n_heads": 4,
+        "d_ff": 256,
+        "n_layers": 2,
+        "weight_sharing": true,
+        "use_world_model": false,
+        "learning_rate": 0.0001,
+        "batch_size": 32,
+        "max_epochs": 100
+      },
+      "data": {
+        "domain": "blocks_world",
+        "split_type": "in_distribution",
+        "num_train_samples": 20000,
+        "num_test_samples": 2000,
+        "train_difficulty_range": [
+          1,
+          6
+        ],
+        "test_difficulty_range": [
+          1,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "experiment_name": "blocks_world_small_wm_std",
+    "domain": "blocks_world",
+    "model": "small_WM",
+    "split_type": "in_distribution",
+    "train_loss_initial": 1.3760294706344605,
+    "train_loss_final": 0.6087453433990478,
+    "train_loss_best": 0.6087453433990478,
+    "test_loss": 0.5844722967299204,
+    "solve_rate": 0.72,
+    "problems_solved": 72,
+    "problems_tested": 100,
+    "training_time": 2326.18980717659,
+    "num_parameters": 137867,
+    "converged": true,
+    "config": {
+      "experiment_name": "blocks_world_small_wm_std",
+      "seed": 42,
+      "model": {
+        "name": "small_WM",
+        "d_model": 64,
+        "n_heads": 4,
+        "d_ff": 256,
+        "n_layers": 2,
+        "weight_sharing": false,
+        "use_world_model": true,
+        "learning_rate": 0.0001,
+        "batch_size": 32,
+        "max_epochs": 100
+      },
+      "data": {
+        "domain": "blocks_world",
+        "split_type": "in_distribution",
+        "num_train_samples": 20000,
+        "num_test_samples": 2000,
+        "train_difficulty_range": [
+          1,
+          6
+        ],
+        "test_difficulty_range": [
+          1,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "experiment_name": "blocks_world_small_wm_shared",
+    "domain": "blocks_world",
+    "model": "small_WMShared",
+    "split_type": "in_distribution",
+    "train_loss_initial": 1.3613977214813233,
+    "train_loss_final": 0.606627857208252,
+    "train_loss_best": 0.606627857208252,
+    "test_loss": 0.5814725482274615,
+    "solve_rate": 0.74,
+    "problems_solved": 74,
+    "problems_tested": 100,
+    "training_time": 1972.3225519657135,
+    "num_parameters": 137867,
+    "converged": true,
+    "config": {
+      "experiment_name": "blocks_world_small_wm_shared",
+      "seed": 42,
+      "model": {
+        "name": "small_WMShared",
+        "d_model": 64,
+        "n_heads": 4,
+        "d_ff": 256,
+        "n_layers": 2,
+        "weight_sharing": true,
+        "use_world_model": true,
+        "learning_rate": 0.0001,
+        "batch_size": 32,
+        "max_epochs": 100
+      },
+      "data": {
+        "domain": "blocks_world",
+        "split_type": "in_distribution",
+        "num_train_samples": 20000,
+        "num_test_samples": 2000,
+        "train_difficulty_range": [
+          1,
+          6
+        ],
+        "test_difficulty_range": [
+          1,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "experiment_name": "blocks_world_medium_base_std",
+    "domain": "blocks_world",
+    "model": "medium_Base",
+    "split_type": "in_distribution",
+    "train_loss_initial": 1.2485848617553712,
+    "train_loss_final": 0.84490649061203,
+    "train_loss_best": 0.84490649061203,
+    "test_loss": 1.005672609995282,
+    "solve_rate": 0.08,
+    "problems_solved": 8,
+    "problems_tested": 100,
+    "training_time": 47738.610219955444,
+    "num_parameters": 1063947,
+    "converged": true,
+    "config": {
+      "experiment_name": "blocks_world_medium_base_std",
+      "seed": 42,
+      "model": {
+        "name": "medium_Base",
+        "d_model": 128,
+        "n_heads": 8,
+        "d_ff": 512,
+        "n_layers": 4,
+        "weight_sharing": false,
+        "use_world_model": false,
+        "learning_rate": 0.0001,
+        "batch_size": 32,
+        "max_epochs": 100
+      },
+      "data": {
+        "domain": "blocks_world",
+        "split_type": "in_distribution",
+        "num_train_samples": 20000,
+        "num_test_samples": 2000,
+        "train_difficulty_range": [
+          1,
+          6
+        ],
+        "test_difficulty_range": [
+          1,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "experiment_name": "blocks_world_medium_base_shared",
+    "domain": "blocks_world",
+    "model": "medium_BaseShared",
+    "split_type": "in_distribution",
+    "train_loss_initial": 1.2528950414657594,
+    "train_loss_final": 0.844877732181549,
+    "train_loss_best": 0.844877732181549,
+    "test_loss": 1.0064550477360923,
+    "solve_rate": 0.08,
+    "problems_solved": 8,
+    "problems_tested": 100,
+    "training_time": 5148.6863849163055,
+    "num_parameters": 1063947,
+    "converged": true,
+    "config": {
+      "experiment_name": "blocks_world_medium_base_shared",
+      "seed": 42,
+      "model": {
+        "name": "medium_BaseShared",
+        "d_model": 128,
+        "n_heads": 8,
+        "d_ff": 512,
+        "n_layers": 4,
+        "weight_sharing": true,
+        "use_world_model": false,
+        "learning_rate": 0.0001,
+        "batch_size": 32,
+        "max_epochs": 100
+      },
+      "data": {
+        "domain": "blocks_world",
+        "split_type": "in_distribution",
+        "num_train_samples": 20000,
+        "num_test_samples": 2000,
+        "train_difficulty_range": [
+          1,
+          6
+        ],
+        "test_difficulty_range": [
+          1,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "experiment_name": "blocks_world_medium_wm_std",
+    "domain": "blocks_world",
+    "model": "medium_WM",
+    "split_type": "in_distribution",
+    "train_loss_initial": 1.1263813982009887,
+    "train_loss_final": 0.4998529088973999,
+    "train_loss_best": 0.4998529088973999,
+    "test_loss": 0.5652548982983544,
+    "solve_rate": 0.75,
+    "problems_solved": 75,
+    "problems_tested": 100,
+    "training_time": 7209.106540679932,
+    "num_parameters": 1067019,
+    "converged": true,
+    "config": {
+      "experiment_name": "blocks_world_medium_wm_std",
+      "seed": 42,
+      "model": {
+        "name": "medium_WM",
+        "d_model": 128,
+        "n_heads": 8,
+        "d_ff": 512,
+        "n_layers": 4,
+        "weight_sharing": false,
+        "use_world_model": true,
+        "learning_rate": 0.0001,
+        "batch_size": 32,
+        "max_epochs": 100
+      },
+      "data": {
+        "domain": "blocks_world",
+        "split_type": "in_distribution",
+        "num_train_samples": 20000,
+        "num_test_samples": 2000,
+        "train_difficulty_range": [
+          1,
+          6
+        ],
+        "test_difficulty_range": [
+          1,
+          6
+        ]
+      }
+    }
+  },
+  {
+    "experiment_name": "blocks_world_medium_wm_shared",
+    "domain": "blocks_world",
+    "model": "medium_WMShared",
+    "split_type": "in_distribution",
+    "train_loss_initial": 1.1189428367614747,
+    "train_loss_final": 0.495382733297348,
+    "train_loss_best": 0.495382733297348,
+    "test_loss": 0.5591567707440209,
+    "solve_rate": 0.74,
+    "problems_solved": 74,
+    "problems_tested": 100,
+    "training_time": 9706.778535842896,
+    "num_parameters": 1067019,
+    "converged": true,
+    "config": {
+      "experiment_name": "blocks_world_medium_wm_shared",
+      "seed": 42,
+      "model": {
+        "name": "medium_WMShared",
+        "d_model": 128,
+        "n_heads": 8,
+        "d_ff": 512,
+        "n_layers": 4,
+        "weight_sharing": true,
+        "use_world_model": true,
+        "learning_rate": 0.0001,
+        "batch_size": 32,
+        "max_epochs": 100
+      },
+      "data": {
+        "domain": "blocks_world",
+        "split_type": "in_distribution",
+        "num_train_samples": 20000,
+        "num_test_samples": 2000,
+        "train_difficulty_range": [
+          1,
+          6
+        ],
+        "test_difficulty_range": [
+          1,
+          6
+        ]
+      }
+    }
+  }
+]

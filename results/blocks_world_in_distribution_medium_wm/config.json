@@ -1,0 +1,30 @@
+{
+  "experiment_name": "blocks_world_in_distribution_medium_wm",
+  "seed": 42,
+  "model": {
+    "name": "medium_WM",
+    "d_model": 128,
+    "n_heads": 8,
+    "d_ff": 512,
+    "n_layers": 4,
+    "weight_sharing": false,
+    "use_world_model": true,
+    "learning_rate": 0.0001,
+    "batch_size": 32,
+    "max_epochs": 100
+  },
+  "data": {
+    "domain": "blocks_world",
+    "split_type": "in_distribution",
+    "num_train_samples": 20000,
+    "num_test_samples": 2000,
+    "train_difficulty_range": [
+      1,
+      6
+    ],
+    "test_difficulty_range": [
+      1,
+      6
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "experiment_name": "blocks_world_medium_wm_productivity",
+  "domain": "blocks_world",
+  "model": "medium_WM",
+  "split_type": "productivity",
+  "train_loss_initial": 0.9813712746620178,
+  "train_loss_final": 0.2940128859043121,
+  "train_loss_best": 0.2940128859043121,
+  "test_loss": 2.3486596137758284,
+  "solve_rate": 0.0,
+  "problems_solved": 0,
+  "problems_tested": 100,
+  "training_time": 39209.60114979744,
+  "num_parameters": 1073675,
+  "converged": true,
+  "action_loss": 0.0,
+  "state_loss": 2.5201252698334704,
+  "num_action_tokens": 30530,
+  "num_state_tokens": 143263,
+  "state_action_ratio": 4.692531935800852,
+  "config": {
+    "experiment_name": "blocks_world_medium_wm_productivity",
+    "seed": 42,
+    "model": {
+      "name": "medium_WM",
+      "d_model": 128,
+      "n_heads": 8,
+      "d_ff": 512,
+      "n_layers": 4,
+      "weight_sharing": false,
+      "use_world_model": true,
+      "learning_rate": 0.0001,
+      "batch_size": 32,
+      "max_epochs": 100
+    },
+    "data": {
+      "domain": "blocks_world",
+      "split_type": "productivity",
+      "num_train_samples": 20000,
+      "num_test_samples": 2000,
+      "train_difficulty_range": [
+        1,
+        4
+      ],
+      "test_difficulty_range": [
+        5,
+        8
+      ]
+    }
+  }
+}

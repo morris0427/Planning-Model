@@ -1,0 +1,15 @@
+% Conclusion 3: No length-generalization
+\begin{table}[t]
+\centering
+\caption{Solve rates on the truly out-of-distribution subset, where the BFS-verified shortest path exceeds the training distribution. No model, architecture, or size combination solves any of these problems. Scaling to large does not unlock length-generalization in Blocks World.}
+\label{tab:truly-ood}
+\begin{tabular}{llcccc}
+\toprule
+Domain & Size & Baseline & WM (oracle) & WM (model) & $n$ \\
+\midrule
+Blocks World & medium & 0.0\% & 0.0\% & 0.0\% & 407 \\
+Blocks World & large & 0.0\% & 0.0\% & 0.0\% & 407 \\
+8-Puzzle & medium & 0.0\% & 0.0\% & 0.0\% & 421 \\
+\bottomrule
+\end{tabular}
+\end{table}

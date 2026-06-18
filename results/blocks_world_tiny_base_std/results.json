@@ -1,0 +1,46 @@
+{
+  "experiment_name": "blocks_world_tiny_base_std",
+  "domain": "blocks_world",
+  "model": "tiny_Base",
+  "split_type": "in_distribution",
+  "train_loss_initial": 1.663926678466797,
+  "train_loss_final": 1.0579557285308838,
+  "train_loss_best": 1.0579557285308838,
+  "test_loss": 1.0383327943938119,
+  "solve_rate": 0.1,
+  "problems_solved": 10,
+  "problems_tested": 100,
+  "training_time": 715.3149318695068,
+  "num_parameters": 35403,
+  "converged": true,
+  "config": {
+    "experiment_name": "blocks_world_tiny_base_std",
+    "seed": 42,
+    "model": {
+      "name": "tiny_Base",
+      "d_model": 32,
+      "n_heads": 2,
+      "d_ff": 128,
+      "n_layers": 2,
+      "weight_sharing": false,
+      "use_world_model": false,
+      "learning_rate": 0.0001,
+      "batch_size": 32,
+      "max_epochs": 100
+    },
+    "data": {
+      "domain": "blocks_world",
+      "split_type": "in_distribution",
+      "num_train_samples": 20000,
+      "num_test_samples": 2000,
+      "train_difficulty_range": [
+        1,
+        6
+      ],
+      "test_difficulty_range": [
+        1,
+        6
+      ]
+    }
+  }
+}

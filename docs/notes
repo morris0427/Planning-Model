@@ -1,0 +1,155 @@
+DOMAIN COMPARISON
+
+# 1. Save 8-Puzzle results
+cp results/sweep_summary.json results/sweep_summary_8puzzle.json
+
+# 2. Run Blocks World
+python3 run_experiments.py --sweep full --domain blocks_world
+
+# 3. Rename Blocks World results
+mv results/sweep_summary.json results/sweep_summary_blocks.json
+
+# 4. Compare domains
+python3 compare_domains.py \
+    results/sweep_summary_blocks.json \
+    results/sweep_summary_8puzzle.json
+
+
+PRODUCTIVITY (individual)
+## ✅ Solution: Split-Specific Cache
+
+### **Option 1: Manual Generation (Recommended)**
+
+**Step 1: Generate productivity data**
+```bash
+python3 generate_productivity_data.py --domain eight_puzzle
+```
+
+**This creates:**
+```
+cached_data/
+├── eight_puzzle_train_baseline.json              ← Standard (keep this!)
+├── eight_puzzle_train_wm.json                    ← Standard (keep this!)
+├── eight_puzzle_train_baseline_productivity.json ← New!
+├── eight_puzzle_test_baseline_productivity.json  ← New!
+├── eight_puzzle_train_wm_productivity.json       ← New!
+└── eight_puzzle_test_wm_productivity.json        ← New!
+```
+
+**Step 2: Temporarily rename for productivity runs**
+```bash
+cd cached_data
+
+# Backup standard data
+mv eight_puzzle_train_baseline.json eight_puzzle_train_baseline_STANDARD.json
+mv eight_puzzle_test_baseline.json eight_puzzle_test_baseline_STANDARD.json
+mv eight_puzzle_train_wm.json eight_puzzle_train_wm_STANDARD.json
+mv eight_puzzle_test_wm.json eight_puzzle_test_wm_STANDARD.json
+
+# Use productivity data
+cp eight_puzzle_train_baseline_productivity.json eight_puzzle_train_baseline.json
+cp eight_puzzle_test_baseline_productivity.json eight_puzzle_test_baseline.json
+cp eight_puzzle_train_wm_productivity.json eight_puzzle_train_wm.json
+cp eight_puzzle_test_wm_productivity.json eight_puzzle_test_wm.json
+```
+**Step 3: Run productivity experiments**
+```bash
+cd ..
+python3 run_productivity_sweep.py --domain eight_puzzle
+```
+
+**Step 4: Save results and restore standard data**
+```bash
+# Save productivity results
+mv results/sweep_summary.json results/sweep_summary_8puzzle_productivity.json
+
+# Restore standard data
+cd cached_data
+mv eight_puzzle_train_baseline_STANDARD.json eight_puzzle_train_baseline.json
+mv eight_puzzle_test_baseline_STANDARD.json eight_puzzle_test_baseline.json
+mv eight_puzzle_train_wm_STANDARD.json eight_puzzle_train_wm.json
+mv eight_puzzle_test_wm_STANDARD.json eight_puzzle_test_wm.json
+```
+
+# Blocks World productivity
+python3 run_experiments.py \
+    --model small_wm \
+    --data blocks_world_productivity \
+    --name bw_productivity_wm
+
+# 8-Puzzle productivity
+python3 run_experiments.py \
+    --model small_wm \
+    --data eight_puzzle_productivity \
+    --name 8p_productivity_wm
+
+PRODUCTIVITY (SWEEP)
+
+# Both domains at once
+python3 run_productivity_sweep.py --domain both
+
+# Or individually
+python3 run_productivity_sweep.py --domain blocks_world
+python3 run_productivity_sweep.py --domain eight_puzzle
+
+See Productivity Data Workflow.md
+
+Quick reference 
+
+View 8-Puzzle resultspython3 analyze_results.py --sweep-file results/sweep_summary_8puzzle.json 
+View Blocks World resultspython3 analyze_results.py --sweep-file results/sweep_summary_blocks.json
+Compare domainspython3 compare_domains.py results/sweep_summary_blocks.json results/sweep_summary_8puzzle.json
+Compare 2 experimentspython3 analyze_results.py --compare exp1 exp2
+
+RUN ONLY ON LARGE MODELS
+
+# Large baseline (standard)
+python3 run_experiments.py \
+    --model large_base \
+    --data eight_puzzle_standard \
+    --name eight_puzzle_large_base_std
+
+# Large baseline (shared weights)
+python3 run_experiments.py \
+    --model large_base_shared \
+    --data eight_puzzle_standard \
+    --name eight_puzzle_large_base_shared
+
+# Large WM (standard)
+python3 run_experiments.py \
+    --model large_wm \
+    --data eight_puzzle_standard \
+    --name eight_puzzle_large_wm_std
+
+# Large WM (shared weights)
+python3 run_experiments.py \
+    --model large_wm_shared \
+    --data eight_puzzle_standard \
+    --name eight_puzzle_large_wm_shared
+
+PRODUCTIVITY FOR BLOCKS WORLD
+
+cd experiments
+
+# 1. Save any existing standard results (if you have them)
+cp results/sweep_summary.json results/sweep_summary_blocks_standard.json
+
+# 2. Clear Blocks World cache
+rm cached_data/blocks_world_*
+
+# 3. Generate productivity data (train 1-4, test 5-8)
+python3 generate_productivity_data.py --domain blocks_world
+
+# 4. Swap in productivity data
+cd cached_data
+cp blocks_world_train_baseline_productivity.json blocks_world_train_baseline.json
+cp blocks_world_test_baseline_productivity.json blocks_world_test_baseline.json
+cp blocks_world_train_wm_productivity.json blocks_world_train_wm.json
+cp blocks_world_test_wm_productivity.json blocks_world_test_wm.json
+
+# 5. Run productivity sweep
+cd ..
+python3 run_productivity_sweep.py --domain blocks_world
+
+# 6. Save productivity results
+cp results/sweep_summary.json results/sweep_summary_blocks_productivity.json

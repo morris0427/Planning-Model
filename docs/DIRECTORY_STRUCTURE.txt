@@ -1,0 +1,194 @@
+experiments/
+│
+├── README.md                      # Complete usage guide
+├── INTEGRATION_GUIDE.md           # Step-by-step integration
+├── DIRECTORY_STRUCTURE.txt        # This file
+│
+├── config.py                      # ✅ COMPLETE
+│   ├── ModelConfig                # Model architecture settings
+│   ├── DataConfig                 # Data generation settings
+│   ├── ExperimentConfig           # Complete experiment config
+│   ├── ModelPresets               # Predefined model sizes
+│   ├── DataPresets                # Predefined data splits
+│   └── Sweep generators           # Create ablations automatically
+│
+├── run_experiments.py             # ✅ COMPLETE (needs trainer.py)
+│   ├── ExperimentRunner           # Main runner class
+│   ├── run_experiment()           # Single experiment
+│   ├── run_sweep()                # Multiple experiments
+│   └── CLI interface              # Command-line arguments
+│
+├── analyze_results.py             # ✅ COMPLETE
+│   ├── ResultsAnalyzer            # Results analysis
+│   ├── compare_model_sizes()      # Size comparison
+│   ├── compare_weight_sharing()   # Weight sharing analysis
+│   └── print_best_configs()       # Top configurations
+│
+├── data/
+│   ├── base.py                    # ✅ COMPLETE
+│   │   ├── PlanningDataset        # Abstract base class
+│   │   └── DatasetFactory         # Factory for creating datasets
+│   │
+│   ├── blocks_world.py            # ⏳ TODO: Copy your generation code
+│   │   └── BlocksWorldDataset     # SAW generation, encoding, decoding
+│   │
+│   └── puzzle.py                  # ⏳ TODO: Copy your generation code
+│       └── PuzzleDataset          # Puzzle generation, encoding, decoding
+│
+├── models/
+│   └── transformer.py             # ⏳ TODO: Copy your model architecture
+│       └── PlanningTransformer    # Transformer with weight sharing option
+│
+├── trainer.py                     # ⏳ TODO: Copy your training loop
+│   ├── train_epoch()              # Single epoch training
+│   ├── evaluate()                 # Evaluation
+│   └── train()                    # Main training function
+│
+└── results/                       # Created when experiments run
+    ├── sweep_summary.json         # Sweep results
+    └── experiment_name/           # Per-experiment results
+        ├── config.json            # Full configuration
+        ├── results.json           # Metrics
+        ├── model.pth              # Saved model (optional)
+        └── train_log.txt          # Training log
+
+
+INTEGRATION STATUS:
+===================
+
+✅ COMPLETE (Ready to use):
+  - config.py             # Configuration system
+  - run_experiments.py    # Experiment runner (framework)
+  - analyze_results.py    # Results analysis
+  - data/base.py          # Abstract dataset class
+
+⏳ TODO (Copy your existing code):
+  - data/blocks_world.py  # Copy from your blocks_encoding.py + generation
+  - data/puzzle.py        # Copy from your puzzle generation
+  - models/transformer.py # Copy from your model definition
+  - trainer.py           # Copy from your training script
+
+
+QUICK START:
+============
+
+1. Copy your data generation:
+   cp your_blocks_generation.py data/blocks_world.py
+   # Then wrap in BlocksWorldDataset class (see INTEGRATION_GUIDE.md)
+
+2. Copy your model:
+   cp your_model.py models/transformer.py
+   # Then add weight_sharing parameter
+
+3. Copy your training:
+   cp your_train.py trainer.py
+   # Then wrap in train(config) function
+
+4. Test:
+   python run_experiments.py --experiment blocks_world_standard
+
+5. Run ablations:
+   python run_experiments.py --sweep model_size --domain blocks_world
+
+
+EXPERIMENT COMMANDS:
+====================
+
+# Single experiment
+python run_experiments.py --experiment blocks_world_standard
+
+# Model size sweep (6 experiments)
+python run_experiments.py --sweep model_size --domain blocks_world
+
+# Weight sharing ablation (4 experiments)
+python run_experiments.py --sweep weight_sharing --domain blocks_world
+
+# Full ablation (12 experiments)
+python run_experiments.py --sweep full --domain blocks_world
+
+# Productivity split
+python run_experiments.py --sweep model_size --domain blocks_world --split productivity
+
+# Analyze results
+python analyze_results.py --sweep-file results/sweep_summary.json
+
+
+WHAT EACH FILE DOES:
+====================
+
+config.py:
+  - Defines model architectures (tiny/small/medium/large)
+  - Defines data splits (in-distribution, productivity, etc.)
+  - Provides preset configurations
+  - Generates experiment sweeps automatically
+
+run_experiments.py:
+  - Runs experiments based on configs
+  - Saves results to JSON
+  - Tracks experiment metadata
+  - CLI interface for easy execution
+
+analyze_results.py:
+  - Loads sweep results
+  - Generates comparison tables
+  - Identifies best configurations
+  - Prints formatted output
+
+data/base.py:
+  - Abstract interface for datasets
+  - Ensures consistency across domains
+  - Factory pattern for easy creation
+
+data/blocks_world.py (YOU CREATE):
+  - Implements generate_problem() using SAW
+  - Implements encode_sequence()
+  - Implements decode_sequence()
+  - Registers with factory
+
+models/transformer.py (YOU CREATE):
+  - Your transformer architecture
+  - Adds weight_sharing support
+  - Factory function for model creation
+
+trainer.py (YOU CREATE):
+  - Your training loop
+  - Takes ExperimentConfig as input
+  - Returns results dictionary
+  - Saves checkpoints
+
+
+TIME ESTIMATE:
+==============
+
+Integration (one-time):
+  - blocks_world.py:   1-2 hours
+  - puzzle.py:         1-2 hours
+  - transformer.py:    30 minutes
+  - trainer.py:        1 hour
+  - Testing:           1 hour
+  Total:               ~4-6 hours
+
+Running new experiments:
+  - Model size sweep:      Single command, ~2 hours runtime
+  - Weight sharing:        Single command, ~1 hour runtime
+  - Full ablation:         Single command, ~4 hours runtime
+
+
+BENEFITS:
+=========
+
+Before framework:
+  - 12 separate scripts for full ablation
+  - Manual result tracking in spreadsheets
+  - Risk of inconsistent settings
+  - Hard to add new experiments
+
+After framework:
+  - Single command: python run_experiments.py --sweep full --domain X
+  - Automatic result tracking
+  - Guaranteed consistent settings
+  - Easy to extend
+
+
+See README.md for full documentation
+See INTEGRATION_GUIDE.md for step-by-step integration instructions
