@@ -40,6 +40,7 @@ from config import (
     create_weight_sharing_sweep,
     create_full_ablation,
 )
+from trainer import train
 
 
 class ExperimentRunner:
@@ -75,34 +76,12 @@ class ExperimentRunner:
         config_path = exp_dir / "config.json"
         self._save_config(config, config_path)
         
-        # Import trainer (done here to avoid import errors if trainer.py doesn't exist yet)
-        try:
-            from trainer import train
-            
-            # Run actual training
-            results = train(config, force_regenerate=self.force_regenerate)
-            
-            # Add config to results
-            results['config'] = self._config_to_dict(config)
-            
-        except ImportError as e:
-            print(f"\n⚠️  WARNING: Could not import trainer")
-            print(f"   {e}")
-            print(f"\n   Using placeholder results instead.")
-            print(f"   Create trainer.py to run real experiments.")
-            
-            # Placeholder results if trainer doesn't exist
-            results = {
-                'experiment_name': config.experiment_name,
-                'domain': config.data.domain,
-                'model': config.model.name,
-                'split_type': config.data.split_type.value,
-                'train_loss_final': 0.35,  # Placeholder
-                'test_loss': 0.42,   # Placeholder
-                'config': self._config_to_dict(config),
-                'note': 'PLACEHOLDER - trainer.py not found'
-            }
-        
+        # Run actual training
+        results = train(config, force_regenerate=self.force_regenerate)
+
+        # Add config to results
+        results['config'] = self._config_to_dict(config)
+
         # Save results
         results_path = exp_dir / "results.json"
         with open(results_path, 'w') as f:
