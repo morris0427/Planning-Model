@@ -1,26 +1,26 @@
 [
   {
-    "experiment_name": "blocks_world_productivity_large_base",
-    "domain": "blocks_world",
+    "experiment_name": "eight_puzzle_productivity_large_base",
+    "domain": "eight_puzzle",
     "model": "large_Base",
     "split_type": "productivity",
-    "train_loss_initial": 0.9440976791381835,
-    "train_loss_final": 0.5129637022018433,
-    "train_loss_best": 0.5129637022018433,
-    "test_loss": 2.9341711506010992,
-    "solve_rate": 0.55,
-    "problems_solved": 55,
+    "train_loss_initial": 0.7678426925543766,
+    "train_loss_final": 0.19324629113173028,
+    "train_loss_best": 0.19212476387145414,
+    "test_loss": 2.116706609725952,
+    "solve_rate": 0.11,
+    "problems_solved": 11,
     "problems_tested": 100,
-    "training_time": 12492.685923099518,
-    "num_parameters": 4228107,
+    "training_time": 462.61813139915466,
+    "num_parameters": 4231440,
     "converged": true,
-    "action_loss": 0.0,
-    "state_loss": 3.0590063284876146,
-    "num_action_tokens": 6106,
-    "num_state_tokens": 52643,
-    "state_action_ratio": 8.621519816573862,
+    "action_loss": 3.3688454427847225,
+    "state_loss": 0.7937007169437745,
+    "num_action_tokens": 7679,
+    "num_state_tokens": 9492,
+    "state_action_ratio": 1.236098450319052,
     "config": {
-      "experiment_name": "blocks_world_productivity_large_base",
+      "experiment_name": "eight_puzzle_productivity_large_base",
       "seed": 42,
       "model": {
         "name": "large_Base",
@@ -35,43 +35,43 @@
         "max_epochs": 100
       },
       "data": {
-        "domain": "blocks_world",
+        "domain": "eight_puzzle",
         "split_type": "productivity",
-        "num_train_samples": 20000,
-        "num_test_samples": 2000,
+        "num_train_samples": 5000,
+        "num_test_samples": 500,
         "train_difficulty_range": [
-          1,
-          4
+          10,
+          12
         ],
         "test_difficulty_range": [
-          5,
-          8
+          13,
+          18
         ]
       }
     }
   },
   {
-    "experiment_name": "blocks_world_productivity_large_wm",
-    "domain": "blocks_world",
+    "experiment_name": "eight_puzzle_productivity_large_wm",
+    "domain": "eight_puzzle",
     "model": "large_WM",
     "split_type": "productivity",
-    "train_loss_initial": 0.7226270562171936,
-    "train_loss_final": 0.2689559119224548,
-    "train_loss_best": 0.2689559119224548,
-    "test_loss": 2.8728885953388517,
-    "solve_rate": 0.51,
-    "problems_solved": 51,
+    "train_loss_initial": 0.8614336263601947,
+    "train_loss_final": 0.0479203133968411,
+    "train_loss_best": 0.047758743451659084,
+    "test_loss": 2.474351719021797,
+    "solve_rate": 0.1,
+    "problems_solved": 10,
     "problems_tested": 100,
-    "training_time": 64538.353397130966,
-    "num_parameters": 4244491,
+    "training_time": 483.17095375061035,
+    "num_parameters": 4268304,
     "converged": true,
-    "action_loss": 0.0,
-    "state_loss": 3.040879458803194,
-    "num_action_tokens": 30530,
-    "num_state_tokens": 143263,
-    "state_action_ratio": 4.692531935800852,
+    "action_loss": 4.306514966870656,
+    "state_loss": 1.9049323115687296,
+    "num_action_tokens": 7679,
+    "num_state_tokens": 81492,
+    "state_action_ratio": 10.61231931241047,
     "config": {
-      "experiment_name": "blocks_world_productivity_large_wm",
+      "experiment_name": "eight_puzzle_productivity_large_wm",
       "seed": 42,
       "model": {
         "name": "large_WM",
@@ -86,17 +86,17 @@
         "max_epochs": 100
       },
       "data": {
-        "domain": "blocks_world",
+        "domain": "eight_puzzle",
         "split_type": "productivity",
-        "num_train_samples": 20000,
-        "num_test_samples": 2000,
+        "num_train_samples": 5000,
+        "num_test_samples": 500,
         "train_difficulty_range": [
-          1,
-          4
+          10,
+          12
         ],
         "test_difficulty_range": [
-          5,
-          8
+          13,
+          18
         ]
       }
     }
