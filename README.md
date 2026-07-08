@@ -296,6 +296,14 @@ showed model-emitted states like [4, 1, 8, 6, 3, 5, 7, 3, 2] — note the
 duplicate 3 and missing 0. A "successful" generation with such invalid
 state tokens may indicate a bug in `check_solution_correctness`.
 
+## Added 7/6/2026
+
+The 8-Puzzle vocabulary uses token 0 for the blank tile. If the loss
+function uses `ignore_index=0`, the model will not learn to predict
+the blank. The fix is to use `train_dataset_generator.vocab["PAD"]`
+(15 for 8-Puzzle, 10 for Blocks World) for both padding and
+ignore_index. See git history around [date] for the specific patch.
+
 ## Compute expectations
 
 On CPU (M-series Mac):

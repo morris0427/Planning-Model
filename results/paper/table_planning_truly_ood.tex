@@ -1,0 +1,16 @@
+% Truly-OOD solve rates with plan-length data showing length-locking.
+\begin{table}[t]
+\centering
+\caption{No length-generalization across architectures and model sizes. Training range and test range indicate the plan lengths the model was trained on versus the truly-OOD test set (BFS-verified). Mean generated plan length columns show how many actions the model produces at test time; in every cell the model produces plans of approximately training-distribution length, regardless of the reference plan length required to reach the goal. This length-locking is the mechanism behind the 0\% solve rate.}
+\label{tab:truly-ood}
+\begin{tabular}{llcccccc}
+\toprule
+Domain & Size & Train. & Test & Baseline & WM & Mean plan length & $n$ \\
+       &      & range  & range & solve   & solve & (Baseline / WM)  &       \\
+\midrule
+Blocks World & medium & 1-4 & 5-8 & 0.0\% & 0.0\% & 3.3 / 1.8 & 407 \\
+Blocks World & large & 1-4 & 5-8 & 0.0\% & 0.0\% & 3.3 / 1.8 & 407 \\
+8-Puzzle & medium & 10-12 & 13-18 & 0.0\% & 0.0\% & 11.1 / 1.0 & 421 \\
+\bottomrule
+\end{tabular}
+\end{table}

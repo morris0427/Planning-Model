@@ -1,0 +1,46 @@
+{
+  "BW WM in-distribution": {
+    "total": 1180,
+    "counts": {
+      "valid": 1180
+    }
+  },
+  "BW WM productivity": {
+    "total": 1655,
+    "counts": {
+      "valid": 1654,
+      "wrong_multiset": 1
+    }
+  },
+  "8P WM in-distribution": {
+    "total": 6007,
+    "counts": {
+      "valid": 5956,
+      "wrong_multiset_with_blank": 35,
+      "missing_blank": 7,
+      "multiple_blanks": 8,
+      "out_of_range_tokens": 1
+    },
+    "zero_hist": {
+      "1": 5992,
+      "0": 7,
+      "2": 8
+    }
+  },
+  "8P WM productivity": {
+    "total": 5503,
+    "counts": {
+      "valid": 4847,
+      "multiple_blanks": 91,
+      "wrong_multiset_with_blank": 466,
+      "missing_blank": 92,
+      "out_of_range_tokens": 7
+    },
+    "zero_hist": {
+      "1": 5319,
+      "2": 90,
+      "0": 93,
+      "3": 1
+    }
+  }
+}
