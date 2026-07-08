@@ -178,11 +178,13 @@ def load_model(ckpt_path, use_world_model):
     return model
 
 model_baseline = load_model(
-    Path("results/eight_puzzle_medium_base_productivity/best_model.pth"),
+    #Path("results/eight_puzzle_medium_base_productivity/best_model.pth"),
+    Path("results/eight_puzzle_productivity_medium_base/best_model.pth"),
     use_world_model=False,
 )
 model_wm = load_model(
-    Path("results/eight_puzzle_medium_wm_productivity/best_model.pth"),
+    #Path("results/eight_puzzle_medium_wm_productivity/best_model.pth"),
+    Path("results/eight_puzzle_productivity_medium_wm/best_model.pth"),
     use_world_model=True,
 )
 print("  baseline and WM both loaded")

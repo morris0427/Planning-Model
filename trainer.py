@@ -992,10 +992,11 @@ def train(config: ExperimentConfig, force_regenerate: bool = False) -> Dict[str,
         print(f"  Note: Train max_seq={train_max_seq}, Test max_seq={test_max_seq}")
         print(f"        Using max={max_seq_length} for model capacity")
     
-    # Pad token (domain-specific)
-    # Blocks World: PAD = 9 (based on vocab in blocks_world.py: PAD=10, but ignore_index uses 9)
-    # Note: This should match your actual PAD token
-    pad_token = 10 if config.data.domain == "blocks_world" else 0
+    # Pad token: read from the dataset's vocabulary. Both Blocks World
+    # (PAD=10) and 8-Puzzle (PAD=15) have distinct PAD tokens that do
+    # not collide with any content token. This value is used for both
+    # sequence padding AND for CrossEntropyLoss.ignore_index below.
+    pad_token = train_dataset_generator.vocab["PAD"]
     
     print(f"✓ Vocabulary size: {vocab_size}")
     print(f"✓ Max sequence length: {max_seq_length}")
@@ -1031,7 +1032,6 @@ def train(config: ExperimentConfig, force_regenerate: bool = False) -> Dict[str,
     # CRITICAL: learning_rate=0.0001 (not 0.001!)
     optimizer = optim.Adam(model.parameters(), lr=config.model.learning_rate)
     criterion = nn.CrossEntropyLoss(ignore_index=pad_token)
-    
     print(f"\nTraining configuration:")
     print(f"  Epochs: {config.model.max_epochs}")
     print(f"  Learning rate: {config.model.learning_rate} ✓")

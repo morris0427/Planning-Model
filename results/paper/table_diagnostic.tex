@@ -1,0 +1,15 @@
+% WM-Diagnostic supplementary table.
+\begin{table}[t]
+\centering
+\caption{Diagnostic condition: WM with oracle state injection. At each step the true post-action state is computed by the oracle and inserted into the model's context, replacing the model's own state predictions. This is not a planning condition; it isolates action-selection ability from state-prediction ability. The small in-distribution boost over WM (Planning) reflects a mild benefit from having ground-truth state context. Neither the boost nor the failure mode changes on truly-OOD problems: oracle assistance does not overcome length-locking.}
+\label{tab:diagnostic}
+\begin{tabular}{lcc}
+\toprule
+Domain & In-distribution & Truly-OOD \\
+       & WM (Diagnostic) & WM (Diagnostic) \\
+\midrule
+Blocks World & 79.2\% & 0.0\% \\
+8-Puzzle & 81.0\% & 0.0\% \\
+\bottomrule
+\end{tabular}
+\end{table}

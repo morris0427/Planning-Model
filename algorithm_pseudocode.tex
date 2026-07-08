@@ -1,0 +1,67 @@
+% Revised pseudocode: planning vs diagnostic conditions.
+%
+% Under this framing, planning is a deliberative activity: the agent
+% produces an action sequence without environmental feedback. Only two
+% conditions are genuinely planning:
+%
+%   1. Baseline (no WM): model emits actions only; no internal
+%      state representation is maintained.
+%   2. WM (planning condition): model emits actions and predicted states;
+%      both come from the model itself with no oracle assistance.
+%
+% A third condition, WM with oracle state injection, is a DIAGNOSTIC
+% that bypasses the deliberation by injecting the true post-action state
+% after each step. It measures action-selection quality given perfect
+% state-tracking, but is not a planning condition.
+%
+% In all cases the final action sequence is checked by an independent
+% plan validator that walks the actions through the true transition
+% function to verify whether they reach the goal.
+
+\begin{algorithm}[t]
+\caption{Autoregressive Solution Generation}
+\label{alg:generate_solution}
+\begin{algorithmic}[1]
+\Require Start state $s_0$, goal state $g$, model $M$, max steps $k$,
+\Statex \hspace{\algorithmicrequire}\ condition $c \in \{\textsc{baseline}, \textsc{wm-planning}, \textsc{wm-diagnostic}\}$
+\Ensure Action sequence $\mathcal{A}$
+\State $\text{seq} \gets [\text{START}, \text{encode}(s_0), \text{encode}(g)]$
+\State $\mathcal{A} \gets []$
+\For{$t = 1$ to $k$}
+    \State Sample action $\hat{a}$ from $M(\text{seq})$ \Comment{select next action}
+    \State Append $\hat{a}$ to seq
+    \State $\mathcal{A} \gets \mathcal{A} \oplus [\hat{a}]$
+    \If{$c = \textsc{wm-planning}$}
+        \State Sample $\hat{s}$ from $M(\text{seq})$ \Comment{model predicts next state}
+        \State Append $\hat{s}$ to seq \Comment{used as context only}
+    \ElsIf{$c = \textsc{wm-diagnostic}$}
+        \State $s_t \gets \text{apply}(s_{t-1}, \hat{a})$ \Comment{oracle computes true state}
+        \State Append $\text{encode}(s_t)$ to seq \Comment{inject ground truth}
+    \EndIf
+    \If{$M$ emits SEP} \textbf{break} \Comment{model signals plan complete}
+    \EndIf
+\EndFor
+\State \Return $\mathcal{A}$
+\end{algorithmic}
+\end{algorithm}
+
+\bigskip
+
+% Independent plan validator, used for all three conditions.
+
+\begin{algorithm}[t]
+\caption{Plan Validator}
+\label{alg:plan_validator}
+\begin{algorithmic}[1]
+\Require Start state $s_0$, goal state $g$, action sequence $\mathcal{A}$
+\Ensure Success flag
+\State $s \gets s_0$
+\For{action $a$ in $\mathcal{A}$}
+    \State $s' \gets \text{apply}(s, a)$ \Comment{use true transition function}
+    \If{$s' = \text{null}$} \Return False \Comment{action illegal in current state}
+    \EndIf
+    \State $s \gets s'$
+\EndFor
+\State \Return $s = g$
+\end{algorithmic}
+\end{algorithm}

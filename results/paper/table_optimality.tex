@@ -1,15 +1,15 @@
-% Conclusion 4: Models recover near-optimal plans
+% Plan optimality on problems each condition solves.
 \begin{table}[t]
 \centering
-\caption{Plan optimality within training distribution. For each (start, goal) pair, we compute the true shortest path with BFS, the SAW-generated reference plan length used during training, and the model's generated plan length. SAW demonstrations are substantially non-optimal in Blocks World (only 2.0\% are optimal); models recover near-optimal plans on the problems they solve. 8-Puzzle's SAW demonstrations are mostly optimal already, leaving less room for improvement.}
+\caption{Plan optimality within training distribution. SAW reference plans (the demonstrations the models were trained on) are highly non-optimal in Blocks World (2\% optimal) and mostly optimal in 8-Puzzle (82\% optimal). In both domains, models recover near-optimal plans, exceeding demonstration quality. Baseline and WM produce plans of comparable quality.}
 \label{tab:optimality}
 \begin{tabular}{lrr|rr|rr}
 \toprule
-& \multicolumn{2}{c}{SAW reference} & \multicolumn{2}{c}{Baseline} & \multicolumn{2}{c}{WM (oracle)} \\
+& \multicolumn{2}{c}{SAW reference} & \multicolumn{2}{c}{Baseline} & \multicolumn{2}{c}{WM} \\
 Domain & excess & optimal & excess & optimal & excess & optimal \\
 \midrule
 Blocks World & 2.72 & 2.0\% & 0.13 & 87.6\% & 0.14 & 87.5\% \\
-8-Puzzle & 0.62 & 82.4\% & 0.41 & 87.6\% & 0.39 & 86.4\% \\
+8-Puzzle & 0.62 & 82.4\% & 0.35 & 88.4\% & 0.29 & 89.1\% \\
 \bottomrule
 \end{tabular}
 \end{table}

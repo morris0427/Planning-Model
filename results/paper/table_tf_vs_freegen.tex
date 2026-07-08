@@ -1,0 +1,18 @@
+% Teacher-forced vs free-generation comparison.
+% Highlights the compound-error signature in 8-Puzzle WM only.
+\begin{table}[t]
+\centering
+\caption{Teacher-forced loss versus free-generation legality, by position within the generated plan. Each cell shows the change from early positions (steps 1--2) to later positions (steps 3--4 for Blocks World; 9--11 for 8-Puzzle). Teacher-forced loss decreases with position in all cells (the model has learned the conditional distribution well), consistent with the general pattern that later tokens are easier to predict from earlier context. However, free-generation legality $-$ whether the model's action at step $k$ is legal in the true state at step $k$ $-$ tells a different story. Only 8-Puzzle WM degrades sharply: state-prediction errors corrupt the rollout context, and subsequent action predictions become invalid. Blocks World maintains legality regardless of condition because state predictions are robust; 8-Puzzle Baseline maintains legality because there are no state predictions to err on. The compound-error mechanism only manifests in the combination of a constraint-rich domain (8-Puzzle) and the world-model auxiliary task.}
+\label{tab:tf-vs-fg}
+\begin{tabular}{lcc}
+\toprule
+Cell & TF loss & FG legal \\
+     & (early $\to$ late) & (early $\to$ late) \\
+\midrule
+Blocks World, Baseline & 0.74 $\to$ 0.47 & 94.5\% $\to$ 83.7\% \\
+Blocks World, WM & 0.70 $\to$ 0.52 & 93.7\% $\to$ 85.7\% \\
+8-Puzzle, Baseline & 0.30 $\to$ 0.15 & 97.8\% $\to$ 90.8\% \\
+8-Puzzle, WM & 0.26 $\to$ 0.02 & 93.5\% $\to$ 69.2\% \\
+\bottomrule
+\end{tabular}
+\end{table}
